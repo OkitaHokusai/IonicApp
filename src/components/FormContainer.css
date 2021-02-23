@@ -1,0 +1,79 @@
+.app-bg{
+    position:absolute;
+    opacity: 0.02;
+    bottom: 400px;
+    left: 100px;
+}
+.app-bg1{
+    position: absolute;
+    opacity: 0.01;
+    top:800px;
+    left: 500px;
+}
+.app-form{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    background-image: url(../images/dots.png);
+    background-size: contain;
+}
+.form-header{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 30px;
+}
+.form-header h2 {
+    margin: 0px 0px 10px;
+}
+.form-header h1 {
+    font-weight: bolder;
+    color:rgb(255, 87, 109) ;
+}
+.form-logo{
+    height: 140px;
+    width: 140px;
+   margin-bottom: 30px;
+    /* animation: rotate infinite 100s linear; */
+}
+.form-group{
+    width: 100%;
+    
+    padding-bottom: 20px;
+}
+.form-group p {
+    margin: 0px 0px 3px 0px;
+    font-weight: bold;
+}
+.form-btn{
+    height: 60px;
+}
+.form-group-btn {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    
+}
+.form-group-btn a {
+    color: gray;
+    font-weight: bolder;
+    text-decoration: none;
+    text-align: center;
+    margin-top: 10px;
+}.form-group-btn a:hover{
+    color: rgb(85, 85, 85);
+}
+
+@keyframes rotate {
+    from{
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}

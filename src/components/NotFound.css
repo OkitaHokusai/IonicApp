@@ -1,0 +1,26 @@
+.not-found h1 {
+    font-weight: bolder;
+    color:rgb(255, 87, 109) ;
+    font-size: 50px;
+    text-align: center;
+}
+.not-found h3{
+    color: gray;
+    text-align: center;
+    font-weight: 100;
+    font-size: 20px;
+}
+.not-found{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url(../images/dots.png);
+    background-size: contain;
+}
+.notfound-bg{
+    position: absolute;
+    opacity: 0.04;
+    left: 600px;
+    top: 400px;
+}
